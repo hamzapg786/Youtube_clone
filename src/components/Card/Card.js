@@ -3,10 +3,10 @@ import "./Card.css";
 const Card = ({ card }) => {
   return (
     <div className="card">
-      <img src={card.url} className="img" alt="" />
+      <img src={card.url} className="img" alt={card.title} />
       <div className="card_content">
         <div className="card_content__left">
-          <img src={card.url} className="thumbnail" />
+          <img src={card.url} className="thumbnail" alt={card.title} />
           <div className="content">
             <p className="title" style={{ color: "black" }}>
               {card.title}

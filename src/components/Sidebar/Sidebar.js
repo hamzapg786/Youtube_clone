@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { GrHomeRounded } from "react-icons/gr";
 import { MdOutlineExplore, MdOutlineSubscriptions } from "react-icons/md";
 import SidebarList from "../SidebarList/SidebarList";
